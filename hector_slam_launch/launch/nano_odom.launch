@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+  <include file="$(find twist_to_rpm)/launch/twist_to_rpm.launch"/>
+  <include file="$(find i2c)/launch/i2c.launch"/>
+  <include file="$(find diff_odometry)/launch/diff_odometry.launch"/>
+</launch>
